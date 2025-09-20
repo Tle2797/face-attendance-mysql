@@ -1,0 +1,6 @@
+opencv-contrib-python
+numpy
+Pillow
+PyMySQL
+edge-tts
+pygame
