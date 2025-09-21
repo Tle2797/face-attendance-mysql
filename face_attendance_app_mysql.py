@@ -54,7 +54,7 @@ PREFERRED_BACKEND = cv2.CAP_MSMF  # จาก probe ของคุณ
 PREFERRED_INDEX  = 1
 
 # --------- Recognition tuning ----------
-UNKNOWN_THRESHOLD = 70.0      # ยอมรับว่า "รู้จัก" เฉพาะ conf < 60 (LBPH: ยิ่งต่ำยิ่งดี)
+UNKNOWN_THRESHOLD = 65.0      # ยอมรับว่า "รู้จัก" เฉพาะ conf < 60 (LBPH: ยิ่งต่ำยิ่งดี)
 CONSEC_REQUIRED   = 5         # ต้องได้ชื่อเดียวกันติดกันกี่เฟรม ก่อนจะยืนยัน/บันทึก
 REPEAT_COOLDOWN_SECONDS = 10  # หน่วงเวลาคนเดิม 10 วินาที
 
